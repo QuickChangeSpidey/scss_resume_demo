@@ -1,6 +1,15 @@
 @import 'vendors/_bootstrap.scss';
 
+$primary-color:#3b5a76;
+$background-color:#ededed;
+$text-color:#362626;
+$font:16px;
+
 body{
-    padding-bottom: 50px;
+    padding-bottom: 0;
+    font-family: 'Open Sans',arial, Tahoma;
+    color:$text-color;
+    background: $background-color;
+    font-size:$font;
 }
 
